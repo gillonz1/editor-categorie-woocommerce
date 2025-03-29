@@ -1,0 +1,93 @@
+/**
+ * Merge Categories CSS
+ * 
+ * Styles for the merge categories functionality
+ */
+
+/* Dialog styles */
+#ec-merge-dialog {
+    padding: 15px;
+}
+
+#ec-merge-target-selector {
+    max-height: 300px;
+    overflow: auto;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Tree styles in dialog */
+#ec-merge-tree {
+    font-size: 14px;
+}
+
+#ec-merge-tree .jstree-anchor {
+    padding: 2px 5px;
+}
+
+/* Merge button styles */
+#ec-merge-categories {
+    margin-left: 10px;
+}
+
+/* Undo button styles */
+#ec-undo-operation {
+    margin-left: 10px;
+    opacity: 1;
+    display: inline-block;
+}
+
+#ec-undo-operation:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Multi-select toggle */
+#ec-multiselect-label {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Options section */
+#ec-merge-dialog label {
+    display: block;
+    margin: 10px 0;
+}
+
+#ec-merge-options {
+    margin-top: 15px;
+}
+
+.ec-merge-option,
+.ec-products-destination-option {
+    margin-bottom: 10px;
+}
+
+#ec-new-category-container,
+#ec-new-products-category-container {
+    margin-top: 5px;
+}
+
+#ec-new-category-name,
+#ec-new-products-category-name {
+    width: 100%;
+    max-width: 300px;
+}
+
+#ec-products-destination-container {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Dialog buttons */
+.ui-dialog .ui-dialog-buttonpane {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin-right: 10px;
+}

@@ -1,0 +1,135 @@
+/**
+ * Taxonomy Tree CSS
+ * 
+ * Styles for the taxonomy tree manager interface
+ */
+
+/* Main container */
+.ec-taxonomy-manager-wrap {
+    margin: 20px 0;
+}
+
+/* Controls area */
+.ec-taxonomy-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.ec-taxonomy-controls form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ec-taxonomy-controls label {
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.ec-taxonomy-controls select {
+    margin-right: 10px;
+}
+
+/* Tree controls */
+.ec-tree-controls {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+/* Search box */
+.ec-search-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.ec-search-box label {
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.ec-search-box input {
+    width: 250px;
+    margin-right: 8px;
+}
+
+/* Tree container */
+.ec-taxonomy-tree-container {
+    position: relative;
+    min-height: 400px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+/* Loading indicator */
+.ec-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.ec-loading .spinner {
+    float: none;
+    margin: 0 10px 0 0;
+}
+
+/* jsTree customizations */
+#ec-taxonomy-tree {
+    max-height: 600px;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+/* Context menu styling */
+.vakata-context {
+    z-index: 1000;
+}
+
+.vakata-context li > a .vakata-contextmenu-sep {
+    display: none;
+}
+
+.vakata-context li > a .dashicons {
+    margin-right: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Notifications */
+.ec-notification {
+    margin: 15px 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .ec-taxonomy-controls {
+        flex-direction: column;
+    }
+    
+    .ec-taxonomy-controls form,
+    .ec-tree-controls,
+    .ec-search-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .ec-search-box input {
+        width: 100%;
+    }
+}
