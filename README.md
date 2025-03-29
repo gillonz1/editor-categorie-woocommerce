@@ -24,11 +24,3 @@ Questo plugin fornisce un'interfaccia migliorata per gestire le categorie dei pr
 ## Utilizzo
 
 Dopo l'attivazione, troverai una nuova voce di menu sotto "Prodotti" chiamata "Editor Categorie" (o simile, verifica il nome esatto nel codice). Questa pagina mostrerà l'albero delle categorie e i controlli per gestirle.
-
-## Contribuire
-
-I contributi sono benvenuti! Si prega di aprire una issue o una pull request.
-
-## Licenza
-
-(Specifica qui la licenza, ad esempio GPLv2 o successiva, MIT, ecc.)
